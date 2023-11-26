@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'cyber';
+	src: url(Fonts/cyberwayriders-lg97d-webfont.woff) format ('woff'),
+	url(Fonts/cyberwayriders-lg97d-webfont.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'future';
+	src: url(Fonts/futuretechnoitalic-x3epj-webfont.woff) format('woff'),
+	url(Fonts/futuretechnoitalic-x3epj-webfont.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'geng';
+	src: url('Fonts/drawflygo-w1ly2-webfont.woff') format('woff'),
+				url('Fonts/drawflygo-w1ly2-webfont.woff2') format('woff2');
+}
+html{
+	font-size: 90%;
+	letter-spacing: 0.15em;	
+}
+body {
+	background-image: url('image/salty-justice-NOMebOREvtc-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.logo{
+	margin-left: 30px;
+}
+#page {
+	max-width: auto;
+	min-width: 720px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+}
+#page img{
+	float: left;
+}
+ul {
+	width: 780px;
+	padding: 15px;
+	margin: 10px auto 0px auto;
+	text-align: center;
+	text-shadow: #000000;
+	font-family: 'cyber', sans-serif;
+}	
+li {
+	display: inline;
+	margin: 0px 3px;
+}
+ul li a{
+	color: white;
+	font-size: 1.5em;
+}
+.cyber{
+	font-family: 'geng', sans-serif;
+	font-size: 3.5em;
+	color: #93f9d0;
+	font-weight: 800;
+}
+p {
+	text-align: justify;
+	color: #9ff6f6;
+	font-size: 1.5em;
+	font-family: 'future', sans-serif;
+}
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;
+}
+a:hover, a.on {
+	color: white;
+	border-bottom: 5px solid #c8ff8a;
+	text-size-adjust: 1.5em;
+}
